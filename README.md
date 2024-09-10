@@ -1,2 +1,2 @@
-# gamedevlab
-Tomo's Game Dev, GB Studio Tutorial, Plugins and Resources
+# Tomo's GB Studio Tutorial, Plugins and Resources
+
