@@ -113,7 +113,7 @@ const config = {
         title: 'Game Dev Lab',
         logo: {
           alt: 'Logo',
-          src: 'img/Beaker_x4.png',
+          src: 'img/MugCup_x2.png',
         },
         items: [
           /*

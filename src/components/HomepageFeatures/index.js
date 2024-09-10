@@ -11,7 +11,7 @@ const FeatureList = [
       message: "Tomo",
       description: "Title for feature #1"
     }),
-    imgSrc: require('@site/static/img/Tomo_Skull.png').default,
+    imgSrc: require('@site/static/img/Tomo_Skull_x4.png').default,
     description: (
       <Translate id="components.HomepageFeatures.feature1_desc" description="Feature #1 Description">
         The creator of this site. He translates GB Studio 4 into Japanese and also develops plugins for it. He believes that this world is merely a virtual reality. G&apos;day, mate! (yup, he&apos;s from Australia)
