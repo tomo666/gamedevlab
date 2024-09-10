@@ -319,7 +319,7 @@
     "description": "Title for feature #2"
   },
   "components.HomepageFeatures.feature2_desc": {
-    "message": "レトロ星の怪しげな研究所に住む謎のロボ。いつも 1 人で研究室にこもってゲーム制作をしているらしいぞ。頭の上のコップは底に穴が空いていて、そこから直接カフェインを飲むんだって！ロボなのに！",
+    "message": "レトロ星の怪しげな研究所に住む謎のロボ。いつも 1 人で研究室にこもってゲーム制作をしているらしいぞ。コップは底が頭と繋がっていて、ノーミソに直接カフェインを取り込むんだって！ロボなのに！",
     "description": "Feature #2 Description"
   },
   "components.HomepageFeatures.feature3": {
@@ -327,11 +327,11 @@
     "description": "Title for feature #3"
   },
   "components.HomepageFeatures.feature3_desc": {
-    "message": "太古の昔からレトロ星に住む原生生物。雨が降るとすっごくよろこぶ。ゲームを遊ぶのが大好き。自分でもゲームを作ってみたいとチャレンジするも、ことごとく挫折してしまう。",
+    "message": "太古の昔からレトロ星に住む原生生物。雨が降るとすっごくよろこぶ。ゲームを遊ぶのが大好き。ゲームを作ってみたいがノーミソが 3 ビットンしかないから、ドットン博士頼りだ！",
     "description": "Feature #3 Description"
   },
   "pages.index.head.tagline": {
-    "message": "",
+    "message": "Dr. Dotton & Bitton's Game Dev Lab",
     "description": "Title page tagline"
   },
   "pages.index.head.title": {
