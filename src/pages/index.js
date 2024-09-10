@@ -9,25 +9,25 @@ import styles from './index.module.css';
 
 import Translate, {translate} from '@docusaurus/Translate';
 
-/*
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          <img src="img/Hero_Image.png" />
+          <img src="img/gamedevex_logo_x4.png" />
         </Heading>
         <p className="hero__subtitle">
           <Translate id="pages.index.head.tagline" description="Title page tagline">
-            Dr. Dotton & Bitton's Game Dev Lab EX
+            Dr. Dotton & Bitton's Game Dev Lab
           </Translate>
         </p>
       </div>
     </header>
   );
-}*/
-
+}
+/*
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -47,7 +47,7 @@ function HomepageHeader() {
     </header>
   );
 }
-
+*/
 /*
 title: translate({
   id: "website.title",
