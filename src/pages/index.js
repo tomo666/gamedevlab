@@ -18,7 +18,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           <img src="img/gamedevex_logo_x4.png" />
         </Heading>
-        <p className="hero__subtitle">
+        <p className="hero__subtitle" style={{color: '#ffffff'}}>
           <Translate id="pages.index.head.tagline" description="Title page tagline">
             Dr. Dotton & Bitton's Game Dev Lab
           </Translate>
