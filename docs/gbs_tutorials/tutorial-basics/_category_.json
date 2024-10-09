@@ -1,8 +1,8 @@
 {
-  "label": "Tutorial - Basics",
-  "position": 2,
+  "label": "初級者向けチュートリアル",
+  "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "GB Studio の基本的な使い方やコンセプトなどを紹介します。"
   }
 }

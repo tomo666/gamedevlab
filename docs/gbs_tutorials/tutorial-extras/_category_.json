@@ -1,7 +1,8 @@
 {
-  "label": "Tutorial - Extras",
-  "position": 3,
+  "label": "中級者向けチュートリアル",
+  "position": 5,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "GB Studio をより深く理解し、実践的に使うためのノウハウを紹介します。"
   }
 }

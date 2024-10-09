@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+.zoomImg {
+  cursor: zoom-in;
+}
+
+.clearLine {
+  clear: both;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.character_card {
+  width: 350px;
+  height: 540px;
+  /*background: #278119 no-repeat url(./gbs_tutorials-extras/img/Dotton_IntoCard.png) 470px 30px;*/
+  background-color: #278119;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #aaffaa;
+  font-size: 16px;
+  padding: 10px;
+  padding-top: 0px;
+  letter-spacing: 0.05em;
+  float:left;
+}
+
+.character_card_sub {
+  width: 350px;
+  /*background: #278119 no-repeat url(./gbs_tutorials-extras/img/Dotton_IntoCard.png) 470px 30px;*/
+  background-color: #278119;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #aaffaa;
+  font-size: normal;
+  padding: 10px;
+  padding-top:0px;
+  letter-spacing: 0.05em;
+  float:left;
+}
+
+.character_card img { width: 100%; }
+
+.character_card_right {
+  float:left;
+}
+
+.character_card_right img { width: 100%; }
+
+.character_card_title {
+  clear: both;
+  font-family: "DotGothic16", sans-serif;
+  color: #ddffdd;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  padding-bottom: 20px;
+  border-bottom: #aaffaa solid 2px;
+  line-height: normal;
+}
+
+.character_card_QA {
+  font-family: "DotGothic16", sans-serif;
+  color: #33ee33;
+  font-weight: bolder;
+}
+
+.character_card_text {
+  width: 300px;
+  text-align: justify;
+}
+
+.tips {
+  position: relative;
+  padding: 0.8em;
+  margin-left: 90px;
+  margin-right: 94px;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+  border-radius: 12px;
+  color: #333333;
+  filter: drop-shadow(2px 2px 0px #869872);
+}
+
+.tips_no_size_limits {
+  position: relative;
+  padding: 0.8em;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+  border-radius: 12px;
+  color: #333333;
+  filter: drop-shadow(2px 2px 0px #869872);
+}
+
+.baloon {
+  position: relative;
+  padding: 0.8em;
+  margin-left: 104px;
+  margin-right: 104px;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+  background-color: #defdbd;
+  border-radius: 12px;
+  color: #333333;
+  text-align: center;
+  filter: drop-shadow(2px 2px 0px #869872);
+}
+
+.avatarDottonLeft {
+  clear: both;
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_dotton.png);
+  float: left;
+  padding-right: 104px;
+}
+
+.avatarDottonRight {
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_dotton.png);
+  float:right;
+}
+
+.avatarDottonLeft_Exclamation {
+  clear: both;
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_dotton_exclamation.png);
+  float: left;
+  padding-right: 104px;
+}
+
+.avatarDottonRight_Exclamation {
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_dotton_exclamation.png);
+  float:right;
+}
+
+.avatarDottonLeft_Explode {
+  clear: both;
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_explode.png);
+  float: left;
+  padding-right: 104px;
+}
+
+.avatarDottonRight_Explode {
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_explode.png);
+  float:right;
+}
+
+.balloonDottonLeft, .balloonDottonRight {
+  position: relative;
+  padding: 0.8em;
+  background-color: #fde9bd;
+  display: inline-block;
+  border-radius: 12px;
+  color: #333333;
+}
+
+.balloonDottonRight {
+  float: right;
+  margin-right: 40px;
+}
+
+/* アイコンを左に表示 */
+.balloonDottonLeft::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -15px;
+  top: 20px;
+  border-right: 15px solid #fde9bd;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+/* アイコンを右に表示 */
+.balloonDottonRight::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  right: -15px;
+  top: 20px;
+  border-left: 15px solid #fde9bd;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.characterName {
+  font-size: 12px;
+  width: 64px;
+  margin-top: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.avatarBittonLeft {
+  clear: both;
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton.png);
+  float: left;
+  padding-right: 104px;
+}
+
+.avatarBittonRight {
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton.png);
+  float:right;
+}
+
+.avatarBittonLeft_Unknown {
+  clear: both;
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_unknown.png);
+  float: left;
+  padding-right: 104px;
+}
+
+.avatarBittonRight_Unknown {
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_unknown.png);
+  float:right;
+}
+
+.avatarBittonLeft_OpenMouth {
+  clear: both;
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_open_mouth.png);
+  float: left;
+  padding-right: 104px;
+}
+
+.avatarBittonRight_OpenMouth {
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_open_mouth.png);
+  float:right;
+}
+
+.avatarBittonRight_Eye_Cross {
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_eye_cross.png);
+  float:right;
+}
+
+.avatarBittonLeft_Eye_Cross {
+  clear: both;
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_eye_cross.png);
+  float: left;
+  padding-right: 104px;
+}
+
+.avatarBittonRight_Sleep {
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_sleep.png);
+  float:right;
+}
+
+.avatarBittonLeft_Sleep {
+  clear: both;
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_sleep.png);
+  float: left;
+  padding-right: 104px;
+}
+
+.avatarBittonRight_Excited {
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_excited.png);
+  float:right;
+}
+
+.avatarBittonLeft_Excited {
+  clear: both;
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_excited.png);
+  float: left;
+  padding-right: 104px;
+}
+
+.avatarBittonRight_Eye_Close {
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_eye_close.png);
+  float:right;
+}
+
+.avatarBittonLeft_Eye_Close {
+  clear: both;
+  display: block;
+  width: 64px;
+  height: 100px;
+  background: no-repeat url(./gbs_tutorials-extras/img/avatar_bitton_eye_close.png);
+  float: left;
+  padding-right: 104px;
+}
+
+.balloonBittonLeft, .balloonBittonRight {
+  position: relative;
+  padding: 0.8em;
+  background-color: #dbf6fb;
+  display: inline-block;
+  border-radius: 12px;
+  color: #333333;
+}
+
+.balloonBittonRight {
+  float: right;
+  margin-right: 40px;
+}
+
+/* アイコンを左に表示 */
+.balloonBittonLeft::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -15px;
+  top: 20px;
+  border-right: 15px solid #dbf6fb;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+/* アイコンを右に表示 */
+.balloonBittonRight::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  right: -15px;
+  top: 20px;
+  border-left: 15px solid #dbf6fb;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}

@@ -26,5 +26,9 @@
   "item.label.Custom Plugins": {
     "message": "自作プラグイン",
     "description": "Navbar item with label Custom Plugins"
+  },
+  "item.label.Tutorials (Japanese)": {
+    "message": "チュートリアル",
+    "description": "Navbar item with label Tutorials (Japanese)"
   }
 }

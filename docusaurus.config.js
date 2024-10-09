@@ -102,10 +102,29 @@ const config = {
       }),
     ],
   ],
+  /* Enable Image Zoom plugin: https://www.npmjs.com/package/docusaurus-plugin-image-zoom*/
+  plugins: [
+    'docusaurus-plugin-image-zoom',
+    ['@docusaurus/plugin-google-gtag',
+    {
+      trackingID: 'G-SVYT50VSNN',
+      anonymizeIP: true,
+    }],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    (
+      {
+      /*
+      announcementBar: {
+        id: 'support_us',
+        content:
+          'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
+      },*/
       // Replace with your project's social card
       //image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -116,7 +135,6 @@ const config = {
           src: 'img/Mugcup_x2.png',
         },
         items: [
-          /*
           {
             type: 'dropdown',
             label: 'GB Studio',
@@ -125,7 +143,7 @@ const config = {
               {
                 type: 'docSidebar',
                 sidebarId: 'gbsTutorialsSidebar',
-                label: 'Tutorials',
+                label: 'Tutorials (Japanese)',
               },
               {
                 type: 'docSidebar',
@@ -133,13 +151,14 @@ const config = {
                 label: 'Custom Plugins',
               },
             ]
-          },*/
+          },
+          /*
           {
             type: 'docSidebar',
             sidebarId: 'gbsPluginsSidebar',
             label: 'Custom Plugins',
             position: 'left',
-          },
+          },*/
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://twitter.com/indiegdevstdio',
@@ -155,11 +174,50 @@ const config = {
             type: 'localeDropdown',
             position: 'right',
           },
-        ]
+        ],
       },
       footer: {
         style: 'dark',
         links: [
+          {
+            title: 'Resources',
+            items: [
+              {
+                label: 'GBS Tutorials (Japanese)',
+                to: '/gbs_tutorials/intro',
+              },
+              {
+                label: 'GBS Custom Plugins',
+                to: '/gbs_plugins/intro',
+              },
+            ],
+          },
+          {
+            title: 'Links',
+            items: [
+              {
+                label: 'Twitter (tomo@indiegdevstdio)',
+                href: 'https://twitter.com/indiegdevstdio',
+              },
+              {
+                label: 'GitHub (tomo666)',
+                href: 'https://github.com/tomo666',
+              },
+            ],
+          },
+          {
+            title: 'About',
+            items: [
+              {
+                label: 'Privacy Policy',
+                to: '/about/privacy',
+              },
+              {
+                label: 'Copyright Notice',
+                to: '/about/copyright',
+              },
+            ],
+          },
           /*
           {
             title: 'Resources',
@@ -206,14 +264,24 @@ const config = {
           },
           */
         ],
-
         copyright: `Copyright © ${new Date().getFullYear()} tomo@indiegdevstdio.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-    }),
+      zoom: {
+        selector: '.markdown img.zoomImg',
+        config: {
+          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+          background: {
+            light: 'rgb(255, 255, 255)',
+            dark: 'rgb(50, 50, 50)'
+          }
+        }
+      },
+    }
+  ),
 };
 
 export default config;

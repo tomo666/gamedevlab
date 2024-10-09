@@ -40,7 +40,7 @@ const FeatureList = [
     imgSrc: require('@site/static/img/Bitton_Sit_x4.png').default,
     description: (
       <Translate id="components.HomepageFeatures.feature3_desc" description="Feature #3 Description">
-        A protist that has lived on Planet Retro since time immemorial. She enjoys rainy days and playing games. She aspires to develop her own game but always ends up leaving it unfinished.
+        A protist that has lived on Planet Retro since time immemorial. Bitton enjoys rainy days and playing games. Also aspires to develop original games but always ends up leaving it unfinished.
       </Translate>
     ),
   },
@@ -64,6 +64,9 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className="siteDescriptionCopy">
+          <Translate id="pages.index.head.tagline.description" description="Title page tagline description">Game Dev central for GB Studio tutorials, custom plugins and documentations.</Translate>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

@@ -337,5 +337,9 @@
   "pages.index.head.title": {
     "message": "ゲーム開発ラボ",
     "description": "Title page title"
+  },
+  "pages.index.head.tagline.description": {
+    "message": "GB Studio のチュートリアル、カスタム プラグインの情報を掲載したゲーム開発者向けのサイトです。",
+    "description": "Title page tagline description"
   }
 }

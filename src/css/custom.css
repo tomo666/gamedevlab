@@ -30,7 +30,26 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }*/
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
+html {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.siteDescriptionCopy {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 2em;
+}
 
 :root {
   /*--ifm-color-primary: #e5f4ff;*/
@@ -45,6 +64,9 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  color: rgba(60, 60, 60, 1);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 [data-theme='dark'] {
@@ -56,5 +78,42 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  background-color: #262626;
+
+  color: rgba(220, 220, 220, 1);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* Apply custom style to character into page */
+.docs-doc-id-gbs_tutorials\/character_intro main {
+  background-color: #278119;
+  --ifm-color-primary: #0288D1;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  color: rgba(220, 220, 220, 1);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.docs-doc-id-gbs_tutorials\/character_intro h1 {
+  color: #efefef;
+}
+.docs-doc-id-gbs_tutorials\/character_intro .breadcrumbs__link {
+  color: #efefef;
+}
+.docs-doc-id-gbs_tutorials\/character_intro code {
+  background-color: var(--ifm-breadcrumb-item-background-active);
+}
+.docs-doc-id-gbs_tutorials\/character_intro .pagination-nav__link {
+  background-color: var(--ifm-breadcrumb-item-background-active);
+  color: #efefef;
+  border: 1px solid #efefef;
+}
+.docs-doc-id-gbs_tutorials\/character_intro .pagination-nav__sublabel {
+  color: #efefef;
 }
 
