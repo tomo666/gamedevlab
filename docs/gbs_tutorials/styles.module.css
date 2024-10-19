@@ -382,3 +382,20 @@
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
 }
+
+/*-----------------------------------------------------------------------*/
+
+.divColorPaletteSwatchBG {
+  border: solid rgba(0, 0, 0, 0.1);;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 5px;
+  width: 120px;
+  margin-bottom: 5px;
+}
+
+.divColorPaletteSwatch {
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
