@@ -264,7 +264,7 @@ const config = {
           },
           */
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} tomo@indiegdevstdio.`,
+        copyright: `Copyright © ${new Date().getFullYear()} tomo@indiegdevstdio, Rinqware Co.,Ltd.`,
       },
       prism: {
         theme: prismThemes.github,
