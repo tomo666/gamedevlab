@@ -289,7 +289,7 @@ import actor_sprite_explained_comic from './img/actor/actor_sprite_explained_com
 
 <div>
   <span className={styles.avatarDottonRight}><div className={styles.characterName}>ドットン</div></span>
-  <span className={styles.balloonDottonRight}>しかたないのぅ・・・ちょっと待っとれ。<br/>たしかこの変に漫画があったような・・・。<br/>あぁこれじゃ。この４コマ漫画でも読んで<br/>みるといいゾ。</span>
+  <span className={styles.balloonDottonRight}>しかたないのぅ・・・ちょっと待っとれ。<br/>たしかこの辺に漫画があったような・・・。<br/>あぁこれじゃ。この４コマ漫画でも読んで<br/>みるといいゾ。</span>
 </div>
 <p className={styles.clearLine}></p>
 
