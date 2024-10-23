@@ -27,7 +27,7 @@
 		"license": "Exclusive Lisense",
 		"description": "Dotton Font jaJP is a [standard] Alphanumeric/Japanese Hiragana & Katakana font asset.",
 		"version": "1.0.0",
-		"gbsVersion": ">=4.2.0",
+		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Dotton_Font_jaJP",
 		"filename": "gbs/fonts/Dotton_Font_jaJP.zip"
     },
@@ -39,7 +39,7 @@
 		"license": "Exclusive Lisense",
 		"description": "Dotton Font Condensed jaJP is a [condensed-style] Alphanumeric/Japanese Hiragana & Katakana font asset.",
 		"version": "1.0.0",
-		"gbsVersion": ">=4.2.0",
+		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Dotton_Font_Condensed_jaJP",
 		"filename": "gbs/fonts/Dotton_Font_Condensed_jaJP.zip"
     },
@@ -51,7 +51,7 @@
 		"license": "Exclusive Lisense",
 		"description": "Dotton Font Bold jaJP is a [bold-style] Alphanumeric/Japanese Hiragana & Katakana font asset.",
 		"version": "1.0.0",
-		"gbsVersion": ">=4.2.0",
+		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Dotton_Font_Bold_jaJP",
 		"filename": "gbs/fonts/Dotton_Font_Bold_jaJP.zip"
     },
@@ -63,7 +63,7 @@
 		"license": "Exclusive License",
 		"description": "Bitton Font jaJP is a Alphanumeric/Japanese Hiragana & Katakana 3x4 pixel font.",
 		"version": "1.0",
-		"gbsVersion": ">=3.1.0"
+		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Bitton_Font_jaJP",
 		"filename": "gbs/fonts/Bitton_Font_jaJP.zip"
 	}
