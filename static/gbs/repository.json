@@ -1,0 +1,71 @@
+{
+  "name": "Tomo's GB Studio Asset Repository",
+  "shortName": "Tomo's GBS Assets",
+  "author": "Tomo@indiegdevstdio",
+  "plugins": [
+     {
+		"type": "eventsPlugin",
+		"name": "Cursor Controller (enUS)",
+		"version": "1.0",
+		"author": "Tomo@indiegdevstdio",
+		"url": "https://tomo666.github.io/gamedevlab",
+		"description": "Lets you control a selection cursor sprite with animations in a \"quick and dirty\" way.",
+		"license": "MIT",
+		"images": [
+			"https://tomo666.github.io/gamedevlab/assets/images/cursor_controller_overview_480p-e292ce4d45812813ffb2819d996c8658.gif",
+			"https://tomo666.github.io/gamedevlab/assets/images/options_tab-1892219e7f86b057157f8951912bb3d8.png"
+		],
+		"gbsVersion": ">=4.2.0",
+		"id": "tomo666/Cursor Controller (enUS)",
+		"filename": "resources/enUS/Cursor_Controller.zip"
+    },
+    {
+		"type": "assetPack",
+		"name": "Dotton Font jaJP",
+		"author": "Tomo@indiegdevstdio",
+		"url": "https://tomo666.github.io/gamedevlab",
+		"license": "Exclusive Lisense",
+		"description": "Dotton Font jaJP is a [standard] Alphanumeric/Japanese Hiragana & Katakana font asset.",
+		"version": "1.0.0",
+		"gbsVersion": ">=4.2.0",
+		"id": "tomo666/Dotton_Font_jaJP",
+		"filename": "gbs/fonts/Dotton_Font_jaJP.zip"
+    },
+    {
+		"type": "assetPack",
+		"name": "Dotton Font Condensed jaJP",
+		"author": "Tomo@indiegdevstdio",
+		"url": "https://tomo666.github.io/gamedevlab",
+		"license": "Exclusive Lisense",
+		"description": "Dotton Font Condensed jaJP is a [condensed-style] Alphanumeric/Japanese Hiragana & Katakana font asset.",
+		"version": "1.0.0",
+		"gbsVersion": ">=4.2.0",
+		"id": "tomo666/Dotton_Font_Condensed_jaJP",
+		"filename": "gbs/fonts/Dotton_Font_Condensed_jaJP.zip"
+    },
+    {
+		"type": "assetPack",
+		"name": "Dotton Font Bold jaJP",
+		"author": "Tomo@indiegdevstdio",
+		"url": "https://tomo666.github.io/gamedevlab",
+		"license": "Exclusive Lisense",
+		"description": "Dotton Font Bold jaJP is a [bold-style] Alphanumeric/Japanese Hiragana & Katakana font asset.",
+		"version": "1.0.0",
+		"gbsVersion": ">=4.2.0",
+		"id": "tomo666/Dotton_Font_Bold_jaJP",
+		"filename": "gbs/fonts/Dotton_Font_Bold_jaJP.zip"
+    },
+	{
+		"type": "assetPack",
+		"name": "Bitton Font jaJP",
+		"author": "Tomo@indiegdevstdio",
+		"url": "https://tomo666.github.io/gamedevlab",
+		"license": "Exclusive License",
+		"description": "Bitton Font jaJP is a Alphanumeric/Japanese Hiragana & Katakana 3x4 pixel font.",
+		"version": "1.0",
+		"gbsVersion": ">=3.1.0"
+		"id": "tomo666/Bitton_Font_jaJP",
+		"filename": "gbs/fonts/Bitton_Font_jaJP.zip"
+	}
+  ]
+}
