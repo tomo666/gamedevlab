@@ -17,7 +17,7 @@
 		],
 		"gbsVersion": ">=4.2.0",
 		"id": "tomo666/Cursor Controller (enUS)",
-		"filename": "resources/enUS/Cursor_Controller.zip"
+		"filename": "https://tomo666.github.io/gamedevlab/gbs/plugins/enUS/Cursor_Controller.zip"
     },
     {
 		"type": "assetPack",
@@ -29,7 +29,7 @@
 		"version": "1.0.0",
 		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Dotton_Font_jaJP",
-		"filename": "gbs/fonts/Dotton_Font_jaJP.zip"
+		"filename": "https://tomo666.github.io/gamedevlab/gbs/fonts/Dotton_Font_jaJP.zip"
     },
     {
 		"type": "assetPack",
@@ -41,7 +41,7 @@
 		"version": "1.0.0",
 		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Dotton_Font_Condensed_jaJP",
-		"filename": "gbs/fonts/Dotton_Font_Condensed_jaJP.zip"
+		"filename": "https://tomo666.github.io/gamedevlab/gbs/fonts/Dotton_Font_Condensed_jaJP.zip"
     },
     {
 		"type": "assetPack",
@@ -53,7 +53,7 @@
 		"version": "1.0.0",
 		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Dotton_Font_Bold_jaJP",
-		"filename": "gbs/fonts/Dotton_Font_Bold_jaJP.zip"
+		"filename": "https://tomo666.github.io/gamedevlab/gbs/fonts/Dotton_Font_Bold_jaJP.zip"
     },
 	{
 		"type": "assetPack",
@@ -65,7 +65,7 @@
 		"version": "1.0",
 		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Bitton_Font_jaJP",
-		"filename": "gbs/fonts/Bitton_Font_jaJP.zip"
+		"filename": "https://tomo666.github.io/gamedevlab/gbs/fonts/Bitton_Font_jaJP.zip"
 	}
   ]
 }
