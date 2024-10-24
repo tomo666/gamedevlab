@@ -15,7 +15,7 @@ import bitton_font_sample from '/img/bitton_font_sample.png';
 
 GB Studio 向けに制作した商用利用可能なフリーフォントです。再配布は原則不可ですが、改変自由、クレジット不要です（クレジットいただける場合は **Tomo** または **Tomo@indiegdevstdio** でお願いします）。
 
-### Dotton Font jaJP
+### ドットンフォント
 [ダウンロードはこちら](/gbs/fonts/Dotton_Font_jaJP.zip)
 
 | <img src={Dotton_Font_jaJP} style={{width: 200}} alt="Dotton_Font_jaJP" /> | <img src={dotton_font_sample} style={{width: 300}} alt="dotton_font_sample" /> |
@@ -25,7 +25,7 @@ GB Studio 向けに制作した商用利用可能なフリーフォントです�
 ドットン博士が、がんばって作ったフォントです。汎用性と視認性の両方を考慮して作ったようです。
 
 <br/>
-### Dotton Font - Condensed - jaJP
+### ドットンフォント - コンデンス -
 [ダウンロードはこちら](/gbs/fonts//Dotton_Font_Condensed_jaJP.zip)
 
 | <img src={Dotton_Font_Condensed_jaJP} style={{width: 200}} alt="Dotton_Font_Condensed_jaJP" /> | <img src={dotton_font_2_sample} style={{width: 300}} alt="dotton_font_2_sample" /> |
@@ -36,7 +36,7 @@ GB Studio 向けに制作した商用利用可能なフリーフォントです�
 
 
 <br/>
-### Dotton Font - Bold - jaJP
+### ドットンフォント - ボールド -
 [ダウンロードはこちら](/gbs/fonts//Dotton_Font_Bold_jaJP.zip)
 
 | <img src={Dotton_Font_Bold_jaJP} style={{width: 200}} alt="Dotton_Font_Bold_jaJP" /> | <img src={dotton_font_3_sample} style={{width: 300}} alt="dotton_font_3_sample" /> |
@@ -47,7 +47,7 @@ GB Studio 向けに制作した商用利用可能なフリーフォントです�
 
 
 <br/>
-### Bitton Font jaJP
+### ビットンフォント
 [ダウンロードはこちら](/gbs/fonts//Bitton_Font_jaJP.zip)
 
 | <img src={Bitton_Font_jaJP} style={{width: 200}} alt="Bitton_Font_jaJP" /> | <img src={bitton_font_sample} style={{width: 300}} alt="bitton_font_sample" /> |
