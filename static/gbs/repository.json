@@ -62,8 +62,8 @@
 		"url": "https://tomo666.github.io/gamedevlab/gbs_resources/docs/fonts#bitton-font-jajp",
 		"license": "Exclusive License",
 		"images": [
-			"https://tomo666.github.io/gamedevlab/img/Bitton_Font_jaJP.png",
-			"https://tomo666.github.io/gamedevlab/img/bitton_font_sample.png"
+			"../../img/Bitton_Font_jaJP.png",
+			"../../img/bitton_font_sample.png"
 		],
 		"description": "Bitton Font jaJP is a Alphanumeric/Japanese Hiragana & Katakana 3x4 pixel font.",
 		"version": "1.0",
