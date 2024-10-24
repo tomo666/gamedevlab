@@ -11,13 +11,21 @@
 		"url": "https://tomo666.github.io/gamedevlab/gbs_plugins/docs/cursor_controller",
 		"description": "Lets you control a selection cursor sprite with animations in a \"quick and dirty\" way.",
 		"license": "MIT",
-		"images": [
-			"https://tomo666.github.io/gamedevlab/assets/images/cursor_controller_overview_480p-e292ce4d45812813ffb2819d996c8658.gif",
-			"https://tomo666.github.io/gamedevlab/assets/images/options_tab-1892219e7f86b057157f8951912bb3d8.png"
-		],
 		"gbsVersion": ">=4.2.0",
 		"id": "tomo666/Cursor_Controller",
-		"filename": "https://tomo666.github.io/gamedevlab/gbs/plugins/enUS/Cursor_Controller.zip"
+		"filename": "https://tomo666.github.io/gamedevlab/gbs/plugins/enUS/Cursor_Controller/plugin.zip"
+    },
+     {
+		"type": "eventsPlugin",
+		"name": "Cursor Controller (jaJP)",
+		"version": "1.0",
+		"author": "Tomo@indiegdevstdio",
+		"url": "https://tomo666.github.io/gamedevlab/gbs_plugins/docs/cursor_controller",
+		"description": "簡易的なカーソル操作をスプライトとアニメーションで実現します。",
+		"license": "MIT",
+		"gbsVersion": ">=4.2.0",
+		"id": "tomo666/Cursor_Controller",
+		"filename": "https://tomo666.github.io/gamedevlab/gbs/plugins/jaJP/Cursor_Controller/plugin.zip"
     },
     {
 		"type": "assetPack",
@@ -25,7 +33,7 @@
 		"author": "Tomo@indiegdevstdio",
 		"url": "https://tomo666.github.io/gamedevlab/gbs_resources/docs/fonts#dotton-font-jajp",
 		"license": "Exclusive Lisense",
-		"description": "Dotton Font jaJP is a [standard] Alphanumeric/Japanese Hiragana & Katakana font asset.",
+		"description": "Dotton Font jaJP is a [standard] Alphanumeric/Japanese Hiragana & Katakana font asset.\n\nドットンフォントは、スタンダードな大文字英数字・記号とひらがな・カタカナのフォントです。汎用性と視認性の両方を考慮してデザインされています。",
 		"version": "1.0.0",
 		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Dotton_Font_jaJP",
@@ -37,7 +45,7 @@
 		"author": "Tomo@indiegdevstdio",
 		"url": "https://tomo666.github.io/gamedevlab/gbs_resources/docs/fonts#dotton-font---condensed---jajp",
 		"license": "Exclusive Lisense",
-		"description": "Dotton Font Condensed jaJP is a [condensed-style] Alphanumeric/Japanese Hiragana & Katakana font asset.",
+		"description": "Dotton Font Condensed jaJP is a [condensed-style] Alphanumeric/Japanese Hiragana & Katakana font asset.\n\nオリジナルのドットンフォントの視認性を少しだけ犠牲にして、より文字詰めができるように、無駄なグリフを無くしてスタイリッシュに仕上げたデザインのフォントです。大文字英数字・記号とひらがな・カタカナが含まれています。",
 		"version": "1.0.0",
 		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Dotton_Font_Condensed_jaJP",
@@ -49,7 +57,7 @@
 		"author": "Tomo@indiegdevstdio",
 		"url": "https://tomo666.github.io/gamedevlab/gbs_resources/docs/fonts#dotton-font---bold---jajp",
 		"license": "Exclusive Lisense",
-		"description": "Dotton Font Bold jaJP is a [bold-style] Alphanumeric/Japanese Hiragana & Katakana font asset.",
+		"description": "Dotton Font Bold jaJP is a [bold-style] Alphanumeric/Japanese Hiragana & Katakana font asset.\n\n視認性を少しだけ犠牲にした力強さが特徴の太字スタイルのフォントです。大文字英数字・記号とひらがな・カタカナが含まれています。",
 		"version": "1.0.0",
 		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Dotton_Font_Bold_jaJP",
@@ -65,7 +73,7 @@
 			"../../img/Bitton_Font_jaJP.png",
 			"../../img/bitton_font_sample.png"
 		],
-		"description": "Bitton Font jaJP is a Alphanumeric/Japanese Hiragana & Katakana 3x4 pixel font.",
+		"description": "Bitton Font jaJP is a Alphanumeric/Japanese Hiragana & Katakana 3x4 pixel font.\n\n幅が 3 ビットン（3 x 4 ピクセル）の、かなり視認性が悪いフォントです。大文字英数字・記号とひらがな・カタカナが含まれていますが、ひらがなの判読はかなり困難です。",
 		"version": "1.0",
 		"gbsVersion": ">=3.1.0",
 		"id": "tomo666/Bitton_Font_jaJP",
