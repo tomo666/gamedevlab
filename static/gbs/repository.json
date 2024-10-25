@@ -11,21 +11,27 @@
 		"url": "https://tomo666.github.io/gamedevlab/gbs_plugins/docs/cursor_controller",
 		"description": "Lets you control a selection cursor sprite with animations in a \"quick and dirty\" way.",
 		"license": "MIT",
+		"images": [
+			"img/cursor_controller_ss1.gif",
+		],
 		"gbsVersion": ">=4.2.0",
-		"id": "Tomo/Cursor_Controller",
-		"filename": "https://tomo666.github.io/gamedevlab/gbs/plugins/enUS/Cursor_Controller/plugin.zip"
+		"id": "Tomo/Cursor_Controller_enUS",
+		"filename": "https://tomo666.github.io/gamedevlab/gbs/plugins/Cursor_Controller_enUS/plugin.zip"
 	},
 	{
 		"type": "eventsPlugin",
 		"name": "Cursor Controller (jaJP)",
 		"version": "1.0",
 		"author": "Tomo@indiegdevstdio",
-		"url": "https://tomo666.github.io/gamedevlab/gbs_plugins/docs/cursor_controller",
+		"url": "https://tomo666.github.io/gamedevlab/ja/gbs_plugins/docs/cursor_controller",
 		"description": "簡易的なカーソル操作をスプライトとアニメーションで実現します。",
 		"license": "MIT",
+		"images": [
+			"img/cursor_controller_ss1.gif",
+		],
 		"gbsVersion": ">=4.2.0",
 		"id": "Tomo/Cursor_Controller_jaJP",
-		"filename": "https://tomo666.github.io/gamedevlab/gbs/plugins/jaJP/Cursor_Controller/plugin.zip"
+		"filename": "https://tomo666.github.io/gamedevlab/gbs/plugins/Cursor_Controller_jaJP/plugin.zip"
 	},
     {
 		"type": "assetPack",
