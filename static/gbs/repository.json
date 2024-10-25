@@ -12,7 +12,7 @@
 		"description": "Lets you control a selection cursor sprite with animations in a \"quick and dirty\" way.",
 		"license": "MIT",
 		"images": [
-			"img/cursor_controller_ss1.gif",
+			"img/cursor_controller_ss1.gif"
 		],
 		"gbsVersion": ">=4.2.0",
 		"id": "Tomo/Cursor_Controller_enUS",
@@ -27,7 +27,7 @@
 		"description": "簡易的なカーソル操作をスプライトとアニメーションで実現します。",
 		"license": "MIT",
 		"images": [
-			"img/cursor_controller_ss1.gif",
+			"img/cursor_controller_ss1.gif"
 		],
 		"gbsVersion": ">=4.2.0",
 		"id": "Tomo/Cursor_Controller_jaJP",
