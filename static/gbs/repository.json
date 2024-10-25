@@ -4,7 +4,7 @@
   "author": "Tomo@indiegdevstdio",
   "plugins": [
 	{
-		"type": "eventsPlugin",
+		"type": "enginePlugin",
 		"name": "Cursor Controller (enUS)",
 		"version": "1.0",
 		"author": "Tomo@indiegdevstdio",
@@ -16,11 +16,11 @@
 			"img/cursor_controller_ss2.png"
 		],
 		"gbsVersion": ">=4.2.0",
-		"id": "XV_Cursor_Controller_enUS",
+		"id": "Tomo/Cursor_Controller_enUS",
 		"filename": "https://tomo666.github.io/gamedevlab/gbs/plugins/Cursor_Controller_enUS/plugin.zip"
 	},
 	{
-		"type": "eventsPlugin",
+		"type": "enginePlugin",
 		"name": "Cursor Controller (jaJP)",
 		"version": "1.0",
 		"author": "Tomo@indiegdevstdio",
@@ -31,7 +31,7 @@
 			"img/cursor_controller_ss1.gif"
 		],
 		"gbsVersion": ">=4.2.0",
-		"id": "XV_Cursor_Controller_jaJP",
+		"id": "Tomo/Cursor_Controller_jaJP",
 		"filename": "https://tomo666.github.io/gamedevlab/gbs/plugins/Cursor_Controller_jaJP/plugin.zip"
 	},
     {
