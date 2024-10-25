@@ -17,7 +17,7 @@
   },
   "link.item.label.GBS Tutorials (Japanese)": {
     "message": "GBS チュートリアル",
-    "description": "The label of footer link with label=GBS Tutorials (Japanese) linking to /gbs_tutorials/intro"
+    "description": "The label of footer link with label=GBS Tutorials (Japanese) linking to /gbs_tutorials"
   },
   "link.item.label.GBS Custom Plugins": {
     "message": "GBS 自作プラグイン",
@@ -38,5 +38,9 @@
   "link.item.label.Copyright Notice": {
     "message": "著作権に関する注意事項",
     "description": "The label of footer link with label=Copyright Notice linking to /about/copyright"
+  },
+  "link.item.label.GBS Resources": {
+    "message": "GBS 素材ダウンロード",
+    "description": "The label of footer link with label=GBS Resources linking to /gb-studio-resources"
   }
 }

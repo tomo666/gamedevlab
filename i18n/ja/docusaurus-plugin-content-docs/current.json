@@ -38,5 +38,29 @@
   "sidebar.gbsTutorialsSidebar.category.中級者向けチュートリアル.link.generated-index.description": {
     "message": "GB Studio をより深く理解し、実践的に使うためのノウハウを紹介します。",
     "description": "The generated-index page description for category 中級者向けチュートリアル in sidebar gbsTutorialsSidebar"
+  },
+  "sidebar.gbsTutorialsSidebar.category.GB Studio チュートリアル": {
+    "message": "GB Studio チュートリアル",
+    "description": "The label for category GB Studio チュートリアル in sidebar gbsTutorialsSidebar"
+  },
+  "sidebar.gbsTutorialsSidebar.category.GB Studio チュートリアル.link.generated-index.title": {
+    "message": "GB Studio チュートリアル",
+    "description": "The generated-index page title for category GB Studio チュートリアル in sidebar gbsTutorialsSidebar"
+  },
+  "sidebar.gbsTutorialsSidebar.category.GB Studio チュートリアル.link.generated-index.description": {
+    "message": "ドットン博士とビットンが茶番劇を繰り広げながら解説する GB Studio のチュートリアルです。GB Studio のバージョンは 4.2 を基準としています。",
+    "description": "The generated-index page description for category GB Studio チュートリアル in sidebar gbsTutorialsSidebar"
+  },
+  "sidebar.gbsResourcesSidebar.category.GB Studio Resources": {
+    "message": "GB Studio 素材ダウンロード",
+    "description": "The label for category GB Studio Resources in sidebar gbsResourcesSidebar"
+  },
+  "sidebar.gbsResourcesSidebar.category.GB Studio Resources.link.generated-index.title": {
+    "message": "GB Studio 素材ダウンロード",
+    "description": "The generated-index page title for category GB Studio Resources in sidebar gbsResourcesSidebar"
+  },
+  "sidebar.gbsResourcesSidebar.category.GB Studio Resources.link.generated-index.description": {
+    "message": "ここでは、GB Studio ゲーム内で使用可能な素材集のダウンロードができます。当サイトに掲載されているすべてのコンテンツ（テキスト、イラスト、画像、デザイン、ロゴ、プログラム、音声、動画などを含む）は、当サイト運営者または正当な権利を有する第三者が著作権を保有しています。ダウンロード・使用する前には必ず当サイトの著作権に関する注意事項をお読みになり、ダウンロードした素材の中に同梱されたライセンスを確認してください。",
+    "description": "The generated-index page description for category GB Studio Resources in sidebar gbsResourcesSidebar"
   }
 }

@@ -85,7 +85,7 @@ h6 {
 }
 
 /* Apply custom style to character into page */
-.docs-doc-id-gbs_tutorials\/character_intro main {
+.docs-doc-id-gbs_tutorials\/docs\/character_intro main {
   background-color: #278119;
   --ifm-color-primary: #0288D1;
   --ifm-color-primary-dark: #21af90;
@@ -99,21 +99,21 @@ h6 {
   color: rgba(220, 220, 220, 1);
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
-.docs-doc-id-gbs_tutorials\/character_intro h1 {
+.docs-doc-id-gbs_tutorials\/docs\/character_intro h1 {
   color: #efefef;
 }
-.docs-doc-id-gbs_tutorials\/character_intro .breadcrumbs__link {
+.docs-doc-id-gbs_tutorials\/docs\/character_intro .breadcrumbs__link {
   color: #efefef;
 }
-.docs-doc-id-gbs_tutorials\/character_intro code {
+.docs-doc-id-gbs_tutorials\/docs\/character_intro code {
   background-color: var(--ifm-breadcrumb-item-background-active);
 }
-.docs-doc-id-gbs_tutorials\/character_intro .pagination-nav__link {
+.docs-doc-id-gbs_tutorials\/docs\/character_intro .pagination-nav__link {
   background-color: var(--ifm-breadcrumb-item-background-active);
   color: #efefef;
   border: 1px solid #efefef;
 }
-.docs-doc-id-gbs_tutorials\/character_intro .pagination-nav__sublabel {
+.docs-doc-id-gbs_tutorials\/docs\/character_intro .pagination-nav__sublabel {
   color: #efefef;
 }
 

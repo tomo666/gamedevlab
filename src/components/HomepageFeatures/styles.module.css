@@ -13,3 +13,13 @@
 .featureImg {
   margin-bottom: 16px;
 }
+
+.buttons hr {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.buttons a {
+  padding-top:15px;
+  padding-bottom:15px;
+}

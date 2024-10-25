@@ -1,6 +1,6 @@
 ---
 description: ドットン博士とビットンの出逢い
-sidebar_position: 1
+sidebar_position: 2
 ---
 import styles from './styles.module.css';
 

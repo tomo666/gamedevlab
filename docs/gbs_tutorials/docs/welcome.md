@@ -1,6 +1,6 @@
 ---
 description: GB Studio の世界へようこそ！
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 import styles from './styles.module.css';

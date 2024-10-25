@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
@@ -65,8 +66,23 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="siteDescriptionCopy">
-          <Translate id="pages.index.head.tagline.description" description="Title page tagline description">Game Dev central for GB Studio tutorials, custom plugins and documentations.</Translate>
+          <Translate id="pages.index.head.tagline.description" description="Title page tagline description">Game Dev central for GB Studio tutorials, custom plugins, resources and documentations.</Translate>
+          <br/><br/><br/>
+          <div className={styles.buttons}>
+            <Link className="button button--secondary button--lg" to="/category/gb-studio-チュートリアル">
+              <Translate id="pages.index.head.banner.tutorials" description="Title page banner linking to the tutorial page">GB Studio Tutorials (Japanese)</Translate>
+            </Link>
+            &nbsp;&nbsp;&nbsp;
+            <Link className="button button--secondary button--lg" to="/gbs_plugins/intro">
+              <Translate id="pages.index.head.banner.plugins" description="Title page banner linking to the plugin page">GB Studio Custom Plugins</Translate>
+            </Link>
+            &nbsp;&nbsp;&nbsp;
+            <Link className="button button--secondary button--lg" to="/category/gb-studio-resources">
+              <Translate id="pages.index.head.banner.resources" description="Title page banner linking to the resources page">GB Studio Resource Downloads</Translate>
+            </Link>
+          </div>
         </div>
+        <br/>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

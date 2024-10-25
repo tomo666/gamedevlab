@@ -339,7 +339,19 @@
     "description": "Title page title"
   },
   "pages.index.head.tagline.description": {
-    "message": "GB Studio のチュートリアル、カスタム プラグインの情報を掲載したゲーム開発者向けのサイトです。",
+    "message": "GB Studio の使い方・チュートリアル、自作プラグイン、素材集のダウンロードなどを掲載したゲーム開発者向けのサイトです。",
     "description": "Title page tagline description"
+  },
+  "pages.index.head.banner.tutorials": {
+    "message": "GB Studio チュートリアル",
+    "description": "Title page banner linking to the tutorial page"
+  },
+  "pages.index.head.banner.plugins": {
+    "message": "GB Studio 自作プラグイン",
+    "description": "Title page banner linking to the plugin page"
+  },
+  "pages.index.head.banner.resources": {
+    "message": "GB Studio 素材ダウンロード",
+    "description": "Title page banner linking to the resources page"
   }
 }

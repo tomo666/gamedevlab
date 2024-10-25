@@ -74,6 +74,7 @@ const config = {
         docs: {
           routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: './sidebars.js',
+          //sidebarCollapsible: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -150,6 +151,11 @@ const config = {
                 sidebarId: 'gbsPluginsSidebar',
                 label: 'Custom Plugins',
               },
+              {
+                type: 'docSidebar',
+                sidebarId: 'gbsResourcesSidebar',
+                label: 'Resources',
+              },
             ]
           },
           /*
@@ -184,11 +190,15 @@ const config = {
             items: [
               {
                 label: 'GBS Tutorials (Japanese)',
-                to: '/gbs_tutorials/intro',
+                to: '/category/gb-studio-チュートリアル',
               },
               {
                 label: 'GBS Custom Plugins',
                 to: '/gbs_plugins/intro',
+              },
+              {
+                label: 'GBS Resources',
+                to: '/category/gb-studio-resources',
               },
             ],
           },
