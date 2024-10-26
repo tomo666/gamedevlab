@@ -429,4 +429,4 @@ Edo999 さんが制作されたフォントです。驚くべきことに漢字�
 <p className={styles.clearLine}></p>
 
 
-<br/><div className={styles.baloon}>なにやらビットン博士がたくらんでいるようですが、<br/>はてさて、どうなることやら・・・？</div><br/>
+<br/><div className={styles.baloon}>なにやらドットン博士がたくらんでいるようですが、<br/>はてさて、どうなることやら・・・？</div><br/>
