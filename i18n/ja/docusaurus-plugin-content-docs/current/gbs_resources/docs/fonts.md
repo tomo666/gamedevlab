@@ -1,6 +1,6 @@
 ---
 description: GB Studio 向けに制作したフォント素材集
-sidebar_position: 2
+sidebar_position: 3
 ---
 import Dotton_Font_jaJP from '/img/Dotton_Font_jaJP.png';
 import dotton_font_sample from '/img/dotton_font_sample.png';
@@ -14,6 +14,10 @@ import bitton_font_sample from '/img/bitton_font_sample.png';
 # フォント素材集
 
 GB Studio 向けに制作した商用利用可能なフリーフォントです。再配布は原則不可ですが、改変自由、クレジット不要です（クレジットいただける場合は **Tomo** または **Tomo@indiegdevstdio** でお願いします）。
+
+## フォントのインストール
+
+GB Studio 4.2.0 以降をお使いの場合は、下記のフォントを「プラグインマネージャー」からインストールすることが可能になりました。詳細については、プラグインの [インストール](../../gbs_plugins/installation.md) ページを参照してください。4.2.0 以前のバージョンをお使いの場合は、下記の各フォントのダウンロードリンクからダウンロードし、直接フォントファイル（.png および .json）をプロジェクトの `assets` &gt; `fonts` フォルダにコピーしてください。
 
 ### ドットンフォント
 [ダウンロードはこちら](/gbs/fonts/Dotton_Font_jaJP.zip)

@@ -1,6 +1,6 @@
 ---
 description: Fonts made for use with GB Studio
-sidebar_position: 2
+sidebar_position: 3
 ---
 import Dotton_Font_jaJP from '/img/Dotton_Font_jaJP.png';
 import dotton_font_sample from '/img/dotton_font_sample.png';
@@ -14,6 +14,10 @@ import bitton_font_sample from '/img/bitton_font_sample.png';
 # Fonts
 
 Fonts made for use with GB Studio. You can freely use the fonts in your game without royalties or credits. However, you may not re-distribute or sub-license it. If you would like to credit these assets, please address **Tomo** or **Tomo@indiegdevstdio**.
+
+## Installing the fonts
+
+If using GB Studio >= 4.2.0, you can install the following fonts via the Plugin Manager. To access this feature, please refer to the plugin [Installation](../../gbs_plugins/installation.md) page for more info. Otherwise, download the fonts directly via the download link below and copy the font files (.png and .json) to the `assets` &gt; `fonts` folder under your project.
 
 ### Dotton Font jaJP
 [Download](/gbs/fonts/Dotton_Font_jaJP.zip)
