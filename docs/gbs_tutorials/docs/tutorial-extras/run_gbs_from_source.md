@@ -473,6 +473,25 @@ Do you want to continue? [Y/n] y
 ::::
 </div>
 
+<br/>
+## プロジェクトが実行できない場合
+
+<div className={styles.tips_no_size_limits}>
+:::tip[LCC のコンパイルエラーでゲームが実行できない場合の対処法]
+<br/>
+GB Studio バージョン 4.2.0 Alpha 版（4 月 14 日 の執筆時点）をソースからビルドした場合、デフォルトで GBDK が存在しないため、エラーが起きることがあります。この場合、GBDK を手動でインストールする必要があります。
+
+下記の URL から、GBDK をダウンロードし、手動でインストールする必要があります。
+https://github.com/gbdk-2020/gbdk-2020/releases
+gbdk-4.3.0 Latest の、使用している OS 用のファイルをダウンロードします。
+
+例えば、GB Studio のクローン先が下記のパスだったとします（パスは macOS を前提にしています）。
+/Users/username/GitHub/gb-studio
+ダウンロードした GBDK ファイルを解凍します（WinZip を使用して解凍しました）。
+gb-studio/buildTools フォルダ内の使用しているターゲット OS のフォルダ（例えば darwin-arm64 フォルダ）に解凍した gbdk フォルダを丸ごとコピーします。
+:::
+</div>
+
 <div>
   <span className={styles.avatarDottonRight}><div className={styles.characterName}>ドットン</div></span>
   <span className={styles.balloonDottonRight}>こんな感じで GB Studio を<br/>ソースコードから実行できるんじゃゾ。<br/><br/>・・・ん？</span>
