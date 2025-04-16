@@ -17,7 +17,7 @@ Fonts made for use with GB Studio. You can freely use the fonts in your game wit
 
 ## Installing the fonts
 
-If using GB Studio >= 4.2.0, you can install the following fonts via the Plugin Manager. To access this feature, please refer to the plugin [Installation](../../gbs_plugins/installation.md) page for more info. Otherwise, download the fonts directly via the download link below and copy the font files (.png and .json) to the `assets` &gt; `fonts` folder under your project.
+If using GB Studio >= 4.2.0, you will need to install using the Plugin Manager built in to GB Studio, since the downloadable fonts available below are only for prior versions (for 3.x to 4.1.3). To access the Plugin Manager feature, please refer to the plugin [Installation](../../gbs_plugins/installation.md) page for more info. For GB Studio version 4.1.3 and below, download the fonts directly via the download link below and copy the font files (.png and .json) to the `assets` &gt; `fonts` folder under your project.
 
 ### Dotton Font jaJP
 [Download](/gbs/fonts/Dotton_Font_jaJP.zip)
