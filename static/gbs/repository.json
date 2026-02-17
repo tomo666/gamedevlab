@@ -12,8 +12,7 @@
 		"description": "Lets you control a selection cursor sprite with animations in a \"quick and dirty\" way.",
 		"license": "MIT",
 		"images": [
-			"img/cursor_controller_ss1.gif",
-			"img/cursor_controller_ss2.png"
+			"img/cursor_controller_ss1.gif"
 		],
 		"gbsVersion": ">=4.2.0",
 		"id": "Tomo/Cursor_Controller_enUS",
@@ -80,7 +79,7 @@
 			"../../img/Bitton_Font_jaJP.png",
 			"../../img/bitton_font_sample.png"
 		],
-		"description": "Bitton Font jaJP is a Alphanumeric/Japanese Hiragana & Katakana 3x4 pixel font.\n\n幅が 3 ビットン（3 x 4 ピクセル）の、かなり視認性が悪いフォントです。大文字英数字・記号とひらがな・カタカナが含まれていますが、ひらがなの判読はかなり困難です。",
+		"description": "Bitton Font jaJP is a Alphanumeric/Japanese Hiragana & Katakana 3x4 pixel font.\n\n幅が 3 ビットン（3 x 4 ピクセル）の極小フォントです。大文字英数字・記号とひらがな・カタカナが含まれていますが、ひらがなの判読はかなり困難です。",
 		"version": "1.0",
 		"gbsVersion": ">=3.1.0",
 		"id": "Tomo/Bitton_Font_jaJP",

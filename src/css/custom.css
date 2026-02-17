@@ -117,3 +117,29 @@ h6 {
   color: #efefef;
 }
 
+/* 全体のコメント色を緑に変更 */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #008000 !important; /* 標準的な緑色 */
+  font-style: italic;        /* お好みで斜体にする場合 */
+}
+
+/* ダークモード時により見やすい緑にする場合（任意） */
+[data-theme='dark'] .token.comment {
+  color: #6a9955 !important; /* VSCodeのダークテーマ風の緑 */
+}
+
+/* コードブロック全体のタブ幅を調整 */
+code {
+  tab-size: 2; /* ここに任意の数字（インデントの半角スペース数）を指定 */
+  -moz-tab-size: 2; /* Firefox用 */
+  font-size: 0.9em;
+}
+
+/* コードブロック全体のフォントサイズを調整 */
+.prism-code {
+  font-size: 0.85rem !important; /* デフォルトより一回り小さく */
+}
+
