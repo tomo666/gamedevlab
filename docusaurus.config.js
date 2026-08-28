@@ -138,6 +138,23 @@ const config = {
         items: [
           {
             type: 'dropdown',
+            label: 'JB Studio',
+            position: 'left',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'jbsDocumentationSidebar',
+                label: 'JBScript',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'jbsJBGameEngineCSDocumentationSidebar',
+                label: 'JBScript JBGE Docs',
+              },
+            ]
+          },
+          {
+            type: 'dropdown',
             label: 'GB Studio',
             position: 'left',
             items: [
@@ -279,6 +296,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['csharp', 'visual-basic'],
       },
       zoom: {
         selector: '.markdown img.zoomImg',
