@@ -136,23 +136,7 @@ const config = {
           src: 'img/Mugcup_x2.png',
         },
         items: [
-          {
-            type: 'dropdown',
-            label: 'JB Studio',
-            position: 'left',
-            items: [
-              {
-                type: 'docSidebar',
-                sidebarId: 'jbsDocumentationSidebar',
-                label: 'JBScript',
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'jbsJBGameEngineCSDocumentationSidebar',
-                label: 'JBScript JBGE Docs',
-              },
-            ]
-          },
+          
           {
             type: 'dropdown',
             label: 'GB Studio',
