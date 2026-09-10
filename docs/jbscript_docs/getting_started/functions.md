@@ -151,6 +151,24 @@ NG:
 void MyFunction(int x = 0, int y, int z = 0)
 ```
 
+### 引数は参照で渡される（`ref` は互換用）
+
+JBScriptでは、`JString` など**オブジェクト型の引数**は、内部的に参照として扱われます。  
+そのため、次のように `ref` を付けても付けなくても、呼び出し時の意味は同じです。
+
+```csharp
+JString contents = new JString("", 512);
+f.ReadText(filePath, ref contents);
+
+void ReadText(JString filePath, ref JString pStringBuffer) {
+    // ...
+}
+```
+
+上は、C# 風の文法に合わせて `ref` を残していますが、JBScriptでは C# 互換を維持するために  
+コンパイラが `ref` を受け入れて削除しているだけです。  
+意味が同じなので、**C# と同じシグネチャを保ちたい既存コードでは `ref` を付けることを推奨**します。
+
 ## メンバ関数（オブジェクトにくっついた関数）
 
 オブジェクトとは、複数の機能や状態をまとめている「もの（物）」です。
@@ -203,4 +221,3 @@ ShowResult(isDead);
 - `obj.Func()` の形は「メンバ関数」（正式名称）
 
 次は、関数を使う上でよく出てくる **条件分岐（if）** や **繰り返し（for/while）** と組み合わせた書き方を増やしていきます。
-
